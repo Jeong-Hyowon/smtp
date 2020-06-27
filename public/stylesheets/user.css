@@ -1,0 +1,281 @@
+.bglogin{
+    margin-bottom: 100px;
+    
+}
+@font-face {
+    font-family: NotoSans;
+    src:url("../fonts/NotoSansRegular.ttf") format('truetype');
+}
+.login h6{
+    width: 190px;
+    height: 20px;
+    font-family: NotoSans;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3673e5;
+    white-space: nowrap;
+}
+
+.login h5{
+    width: 64px;
+    height: 26px;
+    font-family: NotoSans;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    white-space: nowrap;
+}
+.login{   
+    width: 80%;
+    margin: auto;
+    padding: 10%;
+    height: 458px;
+    text-align: center;
+}
+
+#user_email { 
+    width: 100%;  
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: solid 4px #3673e5;
+    background-color: #ffffff;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    
+
+ }
+
+ #user_name { 
+    width: 100%;  
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border-radius: 4px;
+    border: solid 4px #3673e5;
+    background-color: #ffffff;
+    box-sizing: border-box;
+
+ }
+
+ .loginbtn{
+    width: 235px;
+    height: 64px;
+    border-radius: 60px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #3673e5;
+    font-family: NotoSans;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+ }
+
+ input::placeholder{
+    font-family: NotoSans;
+    font-weight: 600;
+ }
+
+@media ( min-width: 768px ) {
+    .bglogin{
+        margin-bottom: 100px;
+    }
+    @font-face {
+        font-family: NotoSans;
+        src:url("../fonts/NotoSansRegular.ttf") format('truetype');
+    }
+    .login{
+        width: 80%;
+        margin: auto;
+        padding: 15%;
+        height: 598px;
+
+        text-align: center;
+    }
+    #user_email { 
+        width: 100%;  
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: solid 4px #3673e5;
+        background-color: #ffffff;
+        border-radius: 4px; 
+        box-sizing: border-box;
+    
+     }
+
+     #user_name { 
+        width: 100%;  
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border-radius: 4px;
+        border: solid 4px #3673e5;
+        background-color: #ffffff;
+        box-sizing: border-box;
+    
+     }
+
+     .loginbtn{
+        width: 273px;
+        height: 64px;
+        border-radius: 60px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #3673e5;
+        font-family: NotoSans;
+        font-size: 20px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.35;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+     }
+     input::placeholder{
+        font-family: NotoSans;
+        font-weight: 600;
+     }
+
+}
+@media ( min-width: 1024px ) {
+    .bglogin{
+
+        margin-bottom: 100px;
+    }
+    @font-face {
+        font-family: NotoSans;
+        src:url("../fonts/NotoSansRegular.ttf") format('truetype');
+    }
+    .login{
+        width: 80%;
+        margin: auto;
+        padding: 15%;
+        height: 598px;
+
+        text-align: center;
+    }
+    #user_email { 
+        width: 100%;  
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: solid 4px #3673e5;
+        background-color: #ffffff;
+        border-radius: 4px; 
+        box-sizing: border-box;
+    
+     }
+
+      #user_name { 
+    width: 100%;  
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border-radius: 4px;
+    border: solid 4px #3673e5;
+    background-color: #ffffff;
+    box-sizing: border-box;
+
+ }
+
+ .loginbtn{
+    width: 270px;
+    height: 64px;
+    border-radius: 60px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #3673e5;
+    font-family: NotoSans;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+ }
+ input::placeholder{
+    font-family: NotoSans;
+    font-weight: 600;
+ }
+    
+}
+
+@media ( max-width: 374px ) {
+    .bglogin{
+        margin-bottom: 100px;
+    }
+    @font-face {
+        font-family: NotoSans;
+        src:url("../fonts/NotoSansRegular.ttf") format('truetype');
+    }
+    .login{
+        width: 80%;
+        margin: auto;
+        padding: 10%;
+        height: 398px;
+
+        text-align: center;
+    }
+    #user_email { 
+        width: 100%;  
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: solid 4px #3673e5;
+        background-color: #ffffff;
+        border-radius: 4px; 
+        box-sizing: border-box;
+    
+     }
+
+     #user_name { 
+        width: 100%;  
+        padding: 6px 20px; 
+        margin: 4px 0; 
+        display: inline-block; 
+        border-radius: 4px;
+        border: solid 4px #3673e5;
+        background-color: #ffffff;
+        box-sizing: border-box;
+    
+     }
+
+     .loginbtn{
+        width: 200px;
+        height: 50px;
+        border-radius: 60px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #3673e5;
+        font-family: NotoSans;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.35;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+     }
+     input::placeholder{
+        font-family: NotoSans;
+        font-weight: 600;
+     }
+
+}
